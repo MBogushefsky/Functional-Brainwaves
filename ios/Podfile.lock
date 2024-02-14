@@ -377,6 +377,8 @@ PODS:
     - React-Core
   - RNSVG (14.1.0):
     - React-Core
+  - RNVectorIcons (10.0.3):
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -444,6 +446,7 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNSound (from `../node_modules/react-native-sound`)
   - RNSVG (from `../node_modules/react-native-svg`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -537,6 +540,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-sound"
   RNSVG:
     :path: "../node_modules/react-native-svg"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -590,6 +595,7 @@ SPEC CHECKSUMS:
   ReactCommon: 349be31adeecffc7986a0de875d7fb0dcf4e251c
   RNSound: 6c156f925295bdc83e8e422e7d8b38d33bc71852
   RNSVG: ba3e7232f45e34b7b47e74472386cf4e1a676d0a
+  RNVectorIcons: bc7ee28cadf39c77a49232a14738dfce690f66cd
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
