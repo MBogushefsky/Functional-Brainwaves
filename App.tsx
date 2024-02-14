@@ -57,7 +57,7 @@ const playSound = (brainwave: any) => {
     currentPlayingSound.stop();
   }
   console.log(brainwave.audioFile);
-  Sound.setCategory('Playback');
+  Sound.setCategory('Playback', true);
   var audio = new Sound(brainwave.audioFile, Sound.MAIN_BUNDLE, error => {
     if (error) {
       console.log('failed to load the sound', error);

@@ -1,1 +1,1 @@
-# MindSync
+# FunctionalBrainwaves

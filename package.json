@@ -1,5 +1,5 @@
 {
-  "name": "MindSync",
+  "name": "Functional Brainwaves",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,9 +7,11 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "patch-package": "^8.0.0",
     "react": "18.1.0",
     "react-native": "0.70.6",
     "react-native-linear-gradient": "^2.8.3",

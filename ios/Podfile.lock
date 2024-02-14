@@ -567,7 +567,7 @@ SPEC CHECKSUMS:
   React: bb3e06418d2cc48a84f9666a576c7b38e89cd7db
   React-bridging: 572502ec59c9de30309afdc4932e278214288913
   React-callinvoker: 6b708b79c69f3359d42f1abb4663f620dbd4dadf
-  React-Codegen: ae5360313e74862bbc6b036143c2963cb4892096
+  React-Codegen: 74e1cd7cee692a8b983c18df3274b5e749de07c8
   React-Core: b587d0a624f9611b0e032505f3d6f25e8daa2bee
   React-CoreModules: c6ff48b985e7aa622e82ca51c2c353c7803eb04e
   React-cxxreact: ade3d9e63c599afdead3c35f8a8bd12b3da6730b
@@ -594,6 +594,6 @@ SPEC CHECKSUMS:
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 97a302ca43bc420445d843f8d747f4bf97a09447
+PODFILE CHECKSUM: ae5008f52b2ac7f6059a53c2090abddad850af6a
 
 COCOAPODS: 1.11.0

@@ -4,7 +4,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 
-target 'MindSync' do
+target 'FunctionalBrainwaves' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -26,7 +26,7 @@ target 'MindSync' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'MindSyncTests' do
+  target 'FunctionalBrainwavesTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -38,6 +38,12 @@ target 'MindSync' do
       # necessary for Mac Catalyst builds
       :mac_catalyst_enabled => false
     )
+    # NOTE: Change IPHONEOS_DEPLOYMENT_TARGET to 12.4.
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.4'
+      end
+    end
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end
