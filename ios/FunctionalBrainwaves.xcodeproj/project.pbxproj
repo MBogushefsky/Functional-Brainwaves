@@ -17,6 +17,7 @@
 		A26E4E7D2B7D59E40076CF4A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A26E4A162B7D59D50076CF4A /* Podfile */; };
 		A26E4E812B7D59E40076CF4A /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = A26E4A262B7D59D60076CF4A /* Podfile.lock */; };
 		A26EB0732B7D4F920076CF4A /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A26EB0722B7D4F920076CF4A /* app-icon.png */; };
+		A2C638112B7EEAC300374508 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C638102B7EEAC200374508 /* Image.xcassets */; };
 		A2E978742B70548D00006C98 /* 01 - Pure Alpha Binaural Beats (12hz).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2E9786E2B70548D00006C98 /* 01 - Pure Alpha Binaural Beats (12hz).mp3 */; };
 		A2E978752B70548D00006C98 /* 03 - Pure Delta Binaural Beats (0.9hz).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2E9786F2B70548D00006C98 /* 03 - Pure Delta Binaural Beats (0.9hz).mp3 */; };
 		A2E978762B70548D00006C98 /* 02 - Pure Beta Binaural Beats (20hz).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2E978702B70548D00006C98 /* 02 - Pure Beta Binaural Beats (20hz).mp3 */; };
@@ -39,7 +40,7 @@
 		00E356EE1AD99517003FC87E /* FunctionalBrainwavesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalBrainwavesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FunctionalBrainwavesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionalBrainwavesTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* FunctionalBrainwaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalBrainwaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Functional Brainwaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Functional Brainwaves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FunctionalBrainwaves/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FunctionalBrainwaves/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FunctionalBrainwaves/Info.plist; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		A26E4A262B7D59D60076CF4A /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		A26EB0722B7D4F920076CF4A /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
 		A26EB0832B7D59950076CF4A /* .xcode.env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .xcode.env; sourceTree = "<group>"; };
+		A2C638102B7EEAC200374508 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		A2E9786E2B70548D00006C98 /* 01 - Pure Alpha Binaural Beats (12hz).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 - Pure Alpha Binaural Beats (12hz).mp3"; sourceTree = "<group>"; };
 		A2E9786F2B70548D00006C98 /* 03 - Pure Delta Binaural Beats (0.9hz).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 - Pure Delta Binaural Beats (0.9hz).mp3"; sourceTree = "<group>"; };
 		A2E978702B70548D00006C98 /* 02 - Pure Beta Binaural Beats (20hz).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 - Pure Beta Binaural Beats (20hz).mp3"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		13B07FAE1A68108700A75B9A /* FunctionalBrainwaves */ = {
 			isa = PBXGroup;
 			children = (
+				A2C638102B7EEAC200374508 /* Image.xcassets */,
 				A26EB0722B7D4F920076CF4A /* app-icon.png */,
 				A2E9787A2B70549E00006C98 /* Sounds */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -153,7 +156,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* FunctionalBrainwaves.app */,
+				13B07F961A680F5B00A75B9A /* Functional Brainwaves.app */,
 				00E356EE1AD99517003FC87E /* FunctionalBrainwavesTests.xctest */,
 			);
 			name = Products;
@@ -226,7 +229,7 @@
 			);
 			name = FunctionalBrainwaves;
 			productName = FunctionalBrainwaves;
-			productReference = 13B07F961A680F5B00A75B9A /* FunctionalBrainwaves.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* Functional Brainwaves.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26E4E812B7D59E40076CF4A /* Podfile.lock in Resources */,
+				A2C638112B7EEAC300374508 /* Image.xcassets in Resources */,
 				A2E978762B70548D00006C98 /* 02 - Pure Beta Binaural Beats (20hz).mp3 in Resources */,
 				A26E4E7D2B7D59E40076CF4A /* Podfile in Resources */,
 				A26EB0732B7D4F920076CF4A /* app-icon.png in Resources */,
@@ -534,6 +538,7 @@
 				DEVELOPMENT_TEAM = 6AFQC8VEB6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FunctionalBrainwaves/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Functional Brainwaves";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -545,7 +550,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bogaware.functional-brainwaves";
-				PRODUCT_NAME = FunctionalBrainwaves;
+				PRODUCT_NAME = "Functional Brainwaves";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -562,6 +567,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6AFQC8VEB6;
 				INFOPLIST_FILE = FunctionalBrainwaves/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Functional Brainwaves";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -573,7 +579,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bogaware.functional-brainwaves";
-				PRODUCT_NAME = FunctionalBrainwaves;
+				PRODUCT_NAME = "Functional Brainwaves";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
